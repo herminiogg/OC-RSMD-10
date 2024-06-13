@@ -7,5 +7,5 @@ For the implementation stories you will find the reports in the [implementation 
 For the mapping reusable workflow you can see access the resources in the [mapping-workflow folder](mapping-workflow).
 
 # Funding
-This work is funded by a cascading grant entitled "2nd open call for Route 2 support - #1 Assessing and improving Research Software" provided by the FAIR-IMPACT project which, in turn, has received funding from the European Commission’s Horizon Europe funding programme for research and innovation programme under the Grant Agreement no. 101057344. The content of this document does not represent the opinion of the European Commission, and the European Commission is not responsible for any use that might be made of such content.
+This work is funded by a cascading grant entitled "2nd open call for Route 2 support - #1 Assessing and improving Research Software" provided by the FAIR-IMPACT project which, in turn, has received funding from the European Commission’s Horizon Europe funding programme for research and innovation programme under the Grant Agreement no. 101057344. The content of this repository does not represent the opinion of the European Commission, and the European Commission is not responsible for any use that might be made of such content.
 

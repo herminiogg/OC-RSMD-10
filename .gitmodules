@@ -1,0 +1,3 @@
+[submodule "mapping-workflow"]
+	path = mapping-workflow
+	url = https://github.com/herminiogg/codemeta-shexml.git

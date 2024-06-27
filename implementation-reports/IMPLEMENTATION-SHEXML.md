@@ -1,4 +1,4 @@
-This is the report of the RSMD guidelines implementation for the [ShExML engine](https://github.com/herminiogg/ShExML)
+This is the report of the RSMD guidelines implementation for the [ShExML engine](https://github.com/herminiogg/ShExML) including the before assesment, the list of taken actions and the after assesment
 
 # Before
 
@@ -65,3 +65,16 @@ This is the report of the RSMD guidelines implementation for the [ShExML engine]
 | [RSMD-7.4](https://fair-impact.github.io/RSMD-guidelines/7.Re-execute/#rsmd-74) |  ⭐⭐ | ❌ | The build instructions are not included. However, there is an ample suite of tests. |
 | [RSMD-7.5](https://fair-impact.github.io/RSMD-guidelines/7.Re-execute/#rsmd-75) |  ⭐⭐ | ⚠️ | There is some degree of user documentation but more examples and a link to the specification can improve this aspect. |
 | [RSMD-7.6](https://fair-impact.github.io/RSMD-guidelines/7.Re-execute/#rsmd-76) |  ⭐ | ❌ | Not implemented. |
+
+# Taken actions
+1. Given the already existing extrinsic metadata providers (i.e., Github and Maven) I developed the crosswalks for both of them.
+2. As ShExML was not on Zenodo I enabled the repository synchronisation but this inevitably forces to create a new release which interrupts the normal release workflow in the tool. Therefore, a "fake" payload was sent to Zenodo's API to have an older version of ShExML registered.
+3. Once on Zenodo the crosswalk for Zenodo was also developed.
+4. After having the three main crosswalks implemented a customised codemeta generation workflow was designed for ShExML based on these three providers and some custom attributes.
+5. The conversion worked well, but when trying to validate it against the [Codemeta generator validator](https://codemeta.github.io/codemeta-generator/) it failed due to ShExML always generating a non-framed JSON-LD version.
+6. After some investigation on how to frame JSON-LD files, two contexts files were developed for the crosswalks and for the ShExML custom mapping alongside a Groovy script that reads the non-framed output, the context file and generates a framed version which is correctly validated by the Codemeta generator.
+7. In order to provide persistent identifiers for the different parts of the code as suggested by the guidelines, I started to investigate the possibilty to add the repository to the Software Heritage archive which to my surprise was already added. Therefore, I just only asked to "Save the code now" to have a more recent version.
+8. Badges for Zenodo and Software Heritage archive were added to the repository README
+9. A CITATION.cff was included in the repository using the DOI provided by Zenodo. As for the remaining question on what is preferrable to cite I left the academic publications in the README but also included a proper way to cite the software as it is [suggested by Github](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-citation-files) in order to get a better recognition of these contributions.
+
+# After

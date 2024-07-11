@@ -1,4 +1,4 @@
-This is the report of the RSMD guidelines implementation for the [ShExML engine](https://github.com/herminiogg/ShExML) including the before assesment, the list of taken actions and the after assesment
+This is the report of the RSMD guidelines implementation for the [ShExML engine](https://github.com/herminiogg/ShExML) including the pre-assesment, the list of taken actions and the post-assesment
 
 # Before
 
@@ -82,3 +82,66 @@ This is the report of the RSMD guidelines implementation for the [ShExML engine]
 13. The new content of the ShExML repository was saved again in Software Heritage to then import this metadata in HAL.
 
 # After
+## Aspect 1
+| Recommendation | Priority | Status | Note |
+|----------------|----------|--------|------|
+| [RSMD-1.1](https://fair-impact.github.io/RSMD-guidelines/1.General/#rsmd-11) |  ⭐⭐⭐ | ✅ | Already compliant before  |
+| [RSMD-1.2](https://fair-impact.github.io/RSMD-guidelines/1.General/#rsmd-12) |  ⭐⭐⭐ | ✅ | Now, it is also available on [Zenodo](https://doi.org/10.5281/zenodo.11577338). |
+| [RSMD-1.3](https://fair-impact.github.io/RSMD-guidelines/1.General/#rsmd-13) |  ⭐⭐ | ✅ | Already compliant before. |
+| [RSMD-1.4](https://fair-impact.github.io/RSMD-guidelines/1.General/#rsmd-14) |  ⭐ | ⚠️ | The software is developed using normal Scala, idiomatic constructions and supporting cross-compilation, however no guidelines are explicitly mentioned |
+| [RSMD-1.5](https://fair-impact.github.io/RSMD-guidelines/1.General/#rsmd-15) |  ⭐ | ❌ | The metadata generation is not yet centralised, even though it has improve a lot. |
+
+## Aspect 2
+| Recommendation | Priority | Status | Note |
+|----------------|----------|--------|------|
+| [RSMD-2.1](https://fair-impact.github.io/RSMD-guidelines/2.Accessibility_preservation/#rsmd-21) |  ⭐⭐⭐ | ✅ | The repository was archived before the initial assesment in Software Heritage but I did not notice it. |
+| [RSMD-2.2](https://fair-impact.github.io/RSMD-guidelines/2.Accessibility_preservation/#rsmd-22) |  ⭐⭐⭐ | ✅ | Now it is available in Zenodo and HAL. |
+| [RSMD-2.3](https://fair-impact.github.io/RSMD-guidelines/2.Accessibility_preservation/#rsmd-23) |  ⭐⭐ | ⚠️ | Not registered in a disciplinary registry as it is difficult to determine one that applies to this field. Nevertheless, it is now much more visible thanks to its inclusion in Zenodo, HAL and Software Heritage. |
+
+## Aspect 3
+| Recommendation | Priority | Status | Note |
+|----------------|----------|--------|------|
+| [RSMD-3.1](https://fair-impact.github.io/RSMD-guidelines/3.Reference_identification/#rsmd-31) |  ⭐⭐⭐ | ✅ | Already compliant before. |
+| [RSMD-3.2](https://fair-impact.github.io/RSMD-guidelines/3.Reference_identification/#rsmd-32) |  ⭐⭐⭐ | ✅ | The SWHID system is adapted through its inclusing in Software Heritage |
+| [RSMD-3.3](https://fair-impact.github.io/RSMD-guidelines/3.Reference_identification/#rsmd-33) |  ⭐⭐⭐ | ✅ | The software has now a DOI thanks to its inclusion in Zenodo. |
+| [RSMD-3.4](https://fair-impact.github.io/RSMD-guidelines/3.Reference_identification/#rsmd-34) |  ⭐ | ✅ | Already compliant before. |
+| [RSMD-3.5](https://fair-impact.github.io/RSMD-guidelines/3.Reference_identification/#rsmd-35) |  ⭐⭐ | ✅ | A good level of intrinsic and extrinsic identifiers is now provided due to the use of Zenodo, HAL and Software Heritage. |
+
+## Aspect 4
+| Recommendation | Priority | Status | Note |
+|----------------|----------|--------|------|
+| [RSMD-4.1](https://fair-impact.github.io/RSMD-guidelines/4.Description_Classification/#rsmd-41) |  ⭐⭐⭐ | ✅ | Already compliant before. |
+| [RSMD-4.2](https://fair-impact.github.io/RSMD-guidelines/4.Description_Classification/#rsmd-42) |  ⭐⭐ | ✅ | A CodeMeta file was included in the repository including extrinsic and intrinsic metadata. |
+| [RSMD-4.3](https://fair-impact.github.io/RSMD-guidelines/4.Description_Classification/#rsmd-43) |  ⭐⭐ | ✅ | Related scientific publications are present in the README file with the respective DOI. The main publication is also included in the CodeMeta file. |
+| [RSMD-4.4](https://fair-impact.github.io/RSMD-guidelines/4.Description_Classification/#rsmd-44) |  ⭐⭐ | ✅ | The CodeMeta file gets metadata from the package manager to populate the concerning fields. |
+| [RSMD-4.5](https://fair-impact.github.io/RSMD-guidelines/4.Description_Classification/#rsmd-45) |  ⭐ | ✅ | More information have been introduced to improve the README. |
+
+## Aspect 5
+| Recommendation | Priority | Status | Note |
+|----------------|----------|--------|------|
+| [RSMD-5.1](https://fair-impact.github.io/RSMD-guidelines/5.Credit_Attribution/#rsmd-51) |  ⭐⭐⭐ | ✅ | Authors are defined in the package manager and in the CodeMeta file. |
+| [RSMD-5.2](https://fair-impact.github.io/RSMD-guidelines/5.Credit_Attribution/#rsmd-52) |  ⭐⭐⭐ | ✅ | Authors are present in the CodeMeta file |
+| [RSMD-5.3](https://fair-impact.github.io/RSMD-guidelines/5.Credit_Attribution/#rsmd-53) |  ⭐⭐ | ✅ | ORCID identifiers are used for authors. |
+| [RSMD-5.4](https://fair-impact.github.io/RSMD-guidelines/5.Credit_Attribution/#rsmd-54) |  ⭐⭐ | ✅ | Roles for software actors are included right now. Future improvement, use a controlled vocabullary. |
+| [RSMD-5.5](https://fair-impact.github.io/RSMD-guidelines/5.Credit_Attribution/#rsmd-55) |  ⭐⭐ | ✅ | A citation file was introduced in the repository that allows to cite the research software. |
+| [RSMD-5.6](https://fair-impact.github.io/RSMD-guidelines/5.Credit_Attribution/#rsmd-56) |  ⭐ | ❌ | This is not implemented. |
+| [RSMD-5.7](https://fair-impact.github.io/RSMD-guidelines/5.Credit_Attribution/#rsmd-57) |  ⭐ | ⚠️ | There is only one author who is the owner. |
+
+## Aspect 6
+| Recommendation | Priority | Status | Note |
+|----------------|----------|--------|------|
+| [RSMD-6.1](https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/#rsmd-61) |  ⭐⭐⭐ | ✅ | Already compliant before. |
+| [RSMD-6.2](https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/#rsmd-62) |  ⭐⭐⭐ | ✅ | Already compliant before. |
+| [RSMD-6.3](https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/#rsmd-63) |  ⭐⭐⭐ | ✅ | This data has been introduced in the CodeMeta file as well as in the Zenodo records. |
+| [RSMD-6.4](https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/#rsmd-64) |  ⭐⭐ | ✅ | The study on the licenses of the used dependencies has been added to the README. |
+| [RSMD-6.5](https://fair-impact.github.io/RSMD-guidelines/6.Reuse_legal/#rsmd-65) |  ⭐ | ❌ | Not implemented. |
+
+## Aspect 7
+| Recommendation | Priority | Status | Note |
+|----------------|----------|--------|------|
+| [RSMD-7.1](https://fair-impact.github.io/RSMD-guidelines/7.Re-execute/#rsmd-71) |  ⭐⭐⭐ | ✅ | Already compliant before. |
+| [RSMD-7.2](https://fair-impact.github.io/RSMD-guidelines/7.Re-execute/#rsmd-72) |  ⭐⭐⭐ | ✅ | Minimal versions are now procided in the README. |
+| [RSMD-7.3](https://fair-impact.github.io/RSMD-guidelines/7.Re-execute/#rsmd-73) |  ⭐⭐ | ❌ | The hardware requirements are not mentioned. |
+| [RSMD-7.4](https://fair-impact.github.io/RSMD-guidelines/7.Re-execute/#rsmd-74) |  ⭐⭐ | ✅ | The build instructions are now included in the README file. |
+| [RSMD-7.5](https://fair-impact.github.io/RSMD-guidelines/7.Re-execute/#rsmd-75) |  ⭐⭐ | ⚠️ | A link to the specification (containing examples) has been included in the README. Further improvement: a page with examples and expected outputs based on the test suite. |
+| [RSMD-7.6](https://fair-impact.github.io/RSMD-guidelines/7.Re-execute/#rsmd-76) |  ⭐ | ❌ | Not implemented. |

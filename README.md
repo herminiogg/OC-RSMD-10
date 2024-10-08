@@ -1,4 +1,6 @@
 # FAIR-IMPACT-RSMD-GUIDELINES - OC-RSMD-10
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13903198.svg)](https://doi.org/10.5281/zenodo.13903198)
+
 This repository includes all the resources and documentation generated during the implementation of the [RSMD guidelines](https://zenodo.org/records/10786147) to two of my software project: [ShExML](https://github.com/herminiogg/ShExML) and [DMAOG](https://github.com/herminiogg/dmaog). At the same time it includes a workflow for creating intrinsic metadata in the form of a Codemeta file from different intrinsic and extrinsic metadata providers.
 
 # Structure
